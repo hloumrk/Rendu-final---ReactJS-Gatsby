@@ -1,0 +1,63 @@
+/**
+* It's necessary to load a part of main style css in the layout for the first loading
+* because the style from react is load after the first rendering
+*/
+body {
+  font-family: var(--font_current);
+}
+
+.global {
+  color: var(--color_text_dark);
+}
+
+.header {
+  font-family: var(--font_current);
+  background: var(--color_header);
+  height: var(--height_header);
+}
+
+.home_box {
+  height: var(--height_header_cell);
+  width: var(--height_header_cell);
+}
+
+.children {
+	padding : 1em;
+  font-family: var(--font_current);
+}
+
+.footer {
+  background: var(--color_footer);
+  font-family: var(--font_current);
+}
+
+input {
+  background: var(--color_bg_form);
+  box-sizing: border-box;
+  padding: 0.3em;
+  margin: 0.3em;
+}
+
+input[type="text"] {
+  width: 25em;
+}
+
+input[type="email"] {
+  width: 20em;
+}
+
+input[type="password"] {
+  width: 20em;
+}
+
+textarea {
+  background: var(--color_bg_form);
+  margin: 0.3em;
+  width: 25em;
+  height: 10em;
+}
+
+button {
+	border: "none";
+	background: var(--color_bg_button);
+}
